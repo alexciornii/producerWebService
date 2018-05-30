@@ -1,0 +1,9 @@
+/home/java/Demo projects/Producer_ws/productws/src/main/java/md/liberopay/producer/User.java
+/home/java/Demo projects/Producer_ws/productws/src/main/java/md/liberopay/producer/UserDetailsRequest.java
+/home/java/Demo projects/Producer_ws/productws/src/main/java/md/liberopay/producer/package-info.java
+/home/java/Demo projects/Producer_ws/productws/src/main/java/md/liberopay/producer/repository/UserRepository.java
+/home/java/Demo projects/Producer_ws/productws/src/main/java/md/liberopay/producer/config/WebServiceConfig.java
+/home/java/Demo projects/Producer_ws/productws/src/main/java/md/liberopay/producer/WSLauncher.java
+/home/java/Demo projects/Producer_ws/productws/src/main/java/md/liberopay/producer/endpoint/UserEndpoint.java
+/home/java/Demo projects/Producer_ws/productws/src/main/java/md/liberopay/producer/ObjectFactory.java
+/home/java/Demo projects/Producer_ws/productws/src/main/java/md/liberopay/producer/UserDetailsResponse.java
