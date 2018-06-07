@@ -24,13 +24,4 @@ public class UserEndpoint {
 
 		return response;
 	}
-
-	@PayloadRoot(namespace = NAMESPACE_URI, localPart = "UserDetailsRequest")
-	@ResponsePayload
-	public UserDetailsResponse getUsers(@RequestPayload UserDetailsRequest request) {
-		UserDetailsResponse response = new UserDetailsResponse();
-		response.setUsers(userRepository.getUsers());
-
-		return response;
-	}
 }

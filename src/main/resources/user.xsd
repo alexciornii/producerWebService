@@ -13,7 +13,6 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="User" type="tns:User"/>
-                <xs:element name="Users" type="tns:User" maxOccurs="unbounded"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
