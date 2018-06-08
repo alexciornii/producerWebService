@@ -1,4 +1,4 @@
-package md.liberopay.producer;
+package md.liberopay.producer.endpoint;
 
 import net.javacrumbs.smock.common.InterceptingTemplate;
 import org.springframework.ws.client.support.interceptor.ClientInterceptor;
