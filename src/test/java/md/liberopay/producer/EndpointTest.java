@@ -1,8 +1,5 @@
 package md.liberopay.producer;
 
-import lombok.extern.slf4j.Slf4j;
-import md.liberopay.producer.UserDetailsRequest;
-import md.liberopay.producer.UserDetailsResponse;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
