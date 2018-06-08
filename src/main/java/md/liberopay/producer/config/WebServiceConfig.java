@@ -39,8 +39,6 @@ public class WebServiceConfig extends WsConfigurerAdapter {
         securityInterceptor.setValidationDecryptionCrypto(getCryptoFactoryBean().getObject());
         securityInterceptor.setValidationCallbackHandler(securityCallbackHandler());
 
-        // encrypt the response
-        securityInterceptor.setSecurementEncryptionUser("client");
         securityInterceptor.setSecurementSignatureParts(
                 "{Element}{http://schemas.xmlsoap.org/soap/envelope/}Body;\n" +
                 "{Element}{http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd}Timestamp");
